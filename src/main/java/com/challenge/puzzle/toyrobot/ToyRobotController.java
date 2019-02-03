@@ -14,9 +14,9 @@ import java.net.URI;
 class ToyRobotController {
 
     private ToyRobotService service;
-    private RobotRobotAssembler assembler;
+    private ToyRobotAssembler assembler;
 
-    public ToyRobotController(ToyRobotService service, RobotRobotAssembler assembler) {
+    public ToyRobotController(ToyRobotService service, ToyRobotAssembler assembler) {
         this.service = service;
         this.assembler = assembler;
     }

@@ -11,7 +11,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 @Component
-class RobotRobotAssembler implements ResourceAssembler<ToyRobotDto, Resource<ToyRobotDto>> {
+class ToyRobotAssembler implements ResourceAssembler<ToyRobotDto, Resource<ToyRobotDto>> {
 
     @Override
     public Resource<ToyRobotDto> toResource(ToyRobotDto robot) {
